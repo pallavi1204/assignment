@@ -1,0 +1,291 @@
+*{
+    margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+
+.container{
+    width:1111px;
+    margin:0 auto;
+}
+
+.top-bar{
+    height:53px;
+    width:100%;
+    background-color: #2d2928;
+}
+
+.nav-menu ul li{
+    list-style: none;
+    padding-bottom:19px;
+    padding-left:20px;
+    padding-top:13px;
+    float:left;
+
+}
+.nav-menu a {
+     color:#c4c4c4;
+     text-decoration: none;
+
+}
+.nav-menu a :hover{
+    color:#ff9900;
+}
+.search{  
+    width:210px;
+    height:24px;
+    float:right;
+    margin-top: 13px;
+    padding-right:20px;
+    border-radius:15px;
+    border:none;
+    padding-left:15px;
+    
+}
+.clear{
+  clear:both;
+}
+
+/*-----header----*/
+
+.title h1{
+    font-family: Lucida Bright;
+    font-size: 64px;
+    color: #666;
+    padding-top:37px;
+    padding-left:20px;
+
+}
+.title h2{
+    color:#999;
+    padding-left:20px;
+   
+}
+.clear{
+    clear:both;
+}
+.box{
+    width:400px;
+    height:60px;
+    border:2px solid #e1e1e1;
+    float:right;
+    margin-top:-72px;
+   /* padding-top:35px ;*/
+    padding-right:20px;
+    text-align: center;
+    color:#999;
+    font-size:21px;
+    text-align: center;
+}
+.header{
+     height:160px;
+}
+.hr{
+    color:#e1e1e1;
+    padding:3px;
+}
+/*------------nav sec----*/
+.nav-bar{
+    border-top:double;
+    
+}
+.nav hr{
+    border-bottom:double double;
+}
+.nav-bar ul li{
+    list-style: none;
+
+}
+.nav-bar a{
+   text-decoration: none;
+   padding-top:13px;
+  
+   padding-left:20px;
+   color:#666;
+   float: left;
+
+}
+
+.nav-bar a::after{
+       content:"|";
+       padding-left:15px;
+
+}
+nav-bar a:hover{
+    color:#ff9900;
+}
+/*--------second sec-----*/
+.second-sec{
+    height: 441px;
+}
+
+.block{
+   height: 330px;
+   width:560px;
+   background-color: #333;
+   margin-top: 40px;
+   float: left;
+}
+.right-sec h1{
+   font-size: 58px;
+   margin-left: 139px;
+   text-align: center;
+   float: left;
+   display: inline-block;
+   width: 348.1px;
+   padding-top: 86px;
+   color: #666;
+}
+.right-sec p{
+   text-align: left;
+   display: inline-block;
+   width: 323px;
+   margin-left: 154px;
+   color: #666;
+   padding-top: 10px;
+}
+.second-sec a{
+    display: inline-block;
+    text-decoration: none;
+    color:#f90;
+    padding-left: 152px;
+    padding-top: 13px;
+}
+/*-------------third sec-----------*/
+
+
+.third-sec{
+	width: 361px;
+	float: left;
+	padding-left:20px;
+	padding-right: 50px;
+	padding-top: 40px;
+	color: #666666;
+}
+.third-sec a{
+	color: #ff9900;
+	text-decoration: none;
+}
+.block-first{
+	height: 381px;
+	width: 306px;
+	background-color: #333333;
+    margin-top: 23px;
+    padding-left:20px;
+	float: left;
+}
+.block-second{
+	height: 316px;
+	width: 306px;
+	background-color: #333333;
+	margin-top: 23px;
+	float: left;
+	margin-left: 58px;
+}
+.block-third{
+	height: 221px;
+	width: 306px;
+	background-color: #333333;
+	margin-top: 23px;
+	float: left;
+	margin-left: 55px;
+}
+.fourth-Description{
+	width: 297px;
+	float: left;
+	color: #666666;
+	width: 297px;
+	margin-right: 70px
+}
+.fourth-Description a{
+	text-decoration: none;
+	color: #ff9900;
+}
+.second-block-first{
+	height: 340px;
+	width: 306px;
+	background-color: #333333;
+	float: left;
+	margin-top: 17px;
+}
+.second-block-second{
+	height: 381px;
+	width: 306px;
+	background-color: #333333;
+	float: left;
+	margin-left: 356px;
+	margin-top: -65px;
+}
+.second-block-third{
+	height: 530px;
+	width: 306px;
+	background-color: #333;
+	margin-left: 373px;
+	margin-top: -100px
+}
+.clear{
+    clear:both;
+}
+/*------------------fourth sec-------*/
+
+.last-sec-first{
+
+	width: 138px;
+	float: left;
+	margin-right: 87PX;
+}
+.last-sec-second {
+	width: 138px;
+	float: left;
+	margin-right: 87PX;
+}
+.last-sec-third {
+	width: 138px;
+	float: left;
+	margin-right: 87PX;
+}
+.last-sec-fourth {
+	width: 138px;
+	float: left;
+	margin-right: 87PX;
+}
+.last-sec-fifth {
+	width: 138px;
+    float: left;
+    padding-bottom:20px;
+
+}
+.last-sec{
+	height: 216px;
+}
+/*-------footer-----*/
+.footer{
+	height: 61px;
+	width: 100%;
+	background-color: #232323;
+}
+.footer p{
+	float: left;
+	color: #919191;
+	padding-top: 25px;
+}
+.footer span{
+	float: right;
+	color: #919191;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
